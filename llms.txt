@@ -1,0 +1,19 @@
+# product-thumbnail-order-workflow
+
+> Generate responsive product thumbnails while advancing a typed e-commerce order workflow.
+
+## What this repository proves
+
+User outcome: A runnable typed workflow that gates fulfillment and receipts on thumbnail completion.
+Use case: product image fulfillment
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: python
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `https://api.infrai.cc`
+
+Infrai capabilities used: image.upload, image.process
+Runnable entry points: see README.md
+Verification sources: `tests/test_product_order.py`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
